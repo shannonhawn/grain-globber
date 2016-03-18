@@ -11,10 +11,5 @@ grains.forEach(function (item) {
   $h3.html(item.name);
   $li.append($h2);
   $p.html(item.desc);
-
-
-
-
-
-
+  $li.append($p);
 });
