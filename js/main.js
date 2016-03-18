@@ -5,7 +5,7 @@ grains.forEach(function (item) {
   var $ul = $('<p>');
   var $ul = $('<h2>');
 
-
+  $ul.append($li);
 
 
 
