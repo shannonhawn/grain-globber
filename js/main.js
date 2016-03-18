@@ -1,9 +1,9 @@
 grains.forEach(function (item) {
   var $ul = $('ul');
-  var $ul = $('<li>');
-  var $ul = $('<img>');
-  var $ul = $('<p>');
-  var $ul = $('<h2>');
+  var $li = $('<li>');
+  var $img = $('<img>');
+  var $p = $('<p>');
+  var $h2 = $('<h2>');
 
   $ul.append($li);
   $img.attr('src', 'images/' + item.img);

@@ -29,5 +29,6 @@ html {
 }
 
 .grains p {
-
+  font-style: italic;
+  margin: 0;
 }
